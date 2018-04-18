@@ -1,0 +1,124 @@
+backend
+├── assets
+├── config
+├── controllers
+├── models
+│   ├── TmstAlamatpegawai.php
+│   ├── TmstCuti.php
+│   ├── TransUsulanpensiun.php
+│   ├── TransUsulanpensiundetail.php
+│   ├── TrefAgama.php
+│   ├── TrefSukubangsa.php
+├── modules
+│   ├── absensi
+│   │   ├── Module.php
+│   │   ├── controllers
+│   │   │   └── DefaultController.php
+│   │   └── views
+│   │       └── default
+│   │           └── index.php
+│   ├── admin
+│   │   ├── Module.php
+│   │   ├── controllers
+│   │   │   └── DefaultController.php
+│   │   └── views
+│   │       └── default
+│   │           └── index.php
+│   ├── administrasipegawai
+│   │   ├── Module.php
+│   │   ├── controllers
+│   │   │   └── DefaultController.php
+│   │   └── views
+│   │       └── default
+│   │           └── index.php
+│   ├── bantuan
+│   │   ├── Module.php
+│   │   ├── controllers
+│   │   │   └── DefaultController.php
+│   │   └── views
+│   │       └── default
+│   │           └── index.php
+│   ├── collaboration
+│   │   ├── Module.php
+│   │   ├── controllers
+│   │   │   └── DefaultController.php
+│   │   └── views
+│   │       └── default
+│   │           └── index.php
+│   ├── datarefmanagement
+│   │   ├── Module.php
+│   │   ├── controllers
+│   │   │   ├── DefaultController.php
+│   │   │   ├── TrefagamaController.php
+│   │   │   └── TrefbankController.php
+│   │   └── views
+│   │       ├── Trefagama
+│   │       │   ├── _form.php
+│   │       │   ├── _search.php
+│   │       │   ├── create.php
+│   │       │   ├── index.php
+│   │       │   ├── update.php
+│   │       │   └── view.php
+│   │       ├── Trefbank
+│   │       │   ├── _form.php
+│   │       │   ├── _search.php
+│   │       │   ├── create.php
+│   │       │   ├── index.php
+│   │       │   ├── update.php
+│   │       │   └── view.php
+│   │       └── default
+│   │           └── index.php
+│   ├── documentmanagement
+│   │   ├── Module.php
+│   │   ├── controllers
+│   │   │   └── DefaultController.php
+│   │   └── views
+│   │       └── default
+│   │           └── index.php
+│   ├── ess
+│   │   ├── Module.php
+│   │   ├── controllers
+│   │   │   └── DefaultController.php
+│   │   └── views
+│   │       └── default
+│   │           └── index.php
+│   ├── organisasi
+│   │   ├── Module.php
+│   │   ├── controllers
+│   │   │   └── DefaultController.php
+│   │   └── views
+│   │       └── default
+│   │           └── index.php
+│   ├── pajak
+│   │   ├── Module.php
+│   │   ├── controllers
+│   │   │   └── DefaultController.php
+│   │   └── views
+│   │       └── default
+│   │           └── index.php
+│   ├── payroll
+│   │   ├── Module.php
+│   │   ├── controllers
+│   │   │   └── DefaultController.php
+│   │   └── views
+│   │       └── default
+│   │           └── index.php
+│   ├── rekrutmen
+│   │   ├── Module.php
+│   │   ├── controllers
+│   │   │   └── DefaultController.php
+│   │   └── views
+│   │       └── default
+│   │           └── index.php
+│   └── reporting
+│       ├── Module.php
+│       ├── controllers
+│       │   └── DefaultController.php
+│       └── views
+│           └── default
+│               └── index.php
+├── runtime
+├── tests
+└── web
+
+92 directories, 377 files
